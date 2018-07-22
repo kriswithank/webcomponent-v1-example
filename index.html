@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Custom Element</title>
+
+  <script type="module" src="x-button.js"></script>
+</head>
+
+<body>
+  <x-button id="my-x-button" message="Hello World!"></x-button>
+  <button type="button" name="button" onClick="document.getElementById('my-x-button').setAttribute('message',Math.random())" >Real Button</button>
+</body>
+</html>
